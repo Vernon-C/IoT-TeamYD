@@ -2,7 +2,7 @@ import paho.mqtt.publish as publish
 import mysql.connector
 import serial
 import time
-https://www.sinchew.com.my/content/content_2089220.htmlhttps://www.sinchew.com.my/content/content_2089220.html
+
 arduino = serial.Serial('/dev/ttyACM0', 9600, timeout=1)
 
 while 1:
