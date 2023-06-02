@@ -21,7 +21,6 @@ def on_connect(client, userdata, flags, rc):
     print("Connected to MQTT broker with result code: " + str(rc))
     
 def on_message(client, userdata, msg):
-    #print("Received MQTT message: " + str(msg.payload.decode()))
     
     print("Success")
     topic = msg.topic
